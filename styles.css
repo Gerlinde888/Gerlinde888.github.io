@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open", sans-serif;
+}
+
+.header {
+  height: 70vh;
+  background-color: aqua;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h1 {
+  font-weight: 400;
+}
+.about-me {
+  display: flex;
+  min-height: 150px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.about-me div:first-child {
+  flex: 1;
+}
+.about-me div:last-child {
+  flex: 2;
+}
+.button-primary,
+.button-secondary {
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.button-primary {
+  background-color: aqua;
+  color: white;
+}
+.button-secondary {
+  background-color: white;
+  color: aqua;
+}
+
+.skills {
+  background-color: #9e859a;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+.skills ul {
+  display: flex;
+  jusitfy-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.skills ul li {
+  list-style: none;
+  margin-botton: 20px;
+}
+.skill ul li img {
+  border: 4px solid white;
+  border-radius: 50%;
+}
